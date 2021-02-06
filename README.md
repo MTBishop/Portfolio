@@ -10,7 +10,7 @@ If you are opting out of career services, this is _still a required assignment_.
 
 * Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.✔
 
-* Submit an updated resume❌❌❌
+* Submit an updated resume✔
 
 * Submit an updated LinkedIn profile✔
 
@@ -40,7 +40,7 @@ Your updated portfolio should:
 
 2. Have links to your GitHub profile and LinkedIn profile✔
 
-3. Have a link to a downloadable PDF of your resume ❌❌❌
+3. Have a link to a downloadable PDF of your resume ✔
 
 4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
 
