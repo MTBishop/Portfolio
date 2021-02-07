@@ -1,7 +1,7 @@
 # Unit 08 Project 1 Homework: Professional Materials
 
 
-# Live deployed link: https://mtbishop.github.io/Portfolio/
+## Live deployed link: https://mtbishop.github.io/Portfolio/
 
 
 
@@ -17,20 +17,8 @@ For this assignment, we were tasked to :
 
 
 
-![About Me Demo](Assets\Images\Demo image 1.PNG)
-![About Me Demo](Assets\Images\Demo image 2.PNG)
-![About Me Demo](Assets\Images\Demo image 3.PNG)
-![About Me Demo](Assets\Images\Demo image 4.PNG)
+![About Me Demo](https://github.com/mtbishop/Portfolio/blob/main/Assets/Images/Demo%20image%201.PNG)
 
+![Projects Demo](https://github.com/mtbishop/Portfolio/blob/main/Assets/Images/Demo%20image%202.PNG)
 
-
-<!-- 
-1. [Updated Portfolio](#updated-portfolio)
-https://mtbishop.github.io/Portfolio/
-2. [GitHub Profile](#updated-github-profile)
-https://github.com/mtbishop
-3. [Updated Resume](#updated-resume)
-https://docs.google.com/document/d/1k-PccCeQzhugyhvaEKibDcAcwJkhrNmMBe1OkXoGh3U/edit
-4. [Updated LinkedIn](#updated-linkedin)
-https://www.linkedin.com/in/matthew-t-bishop/
- -->
+![Contact Demo](https://github.com/mtbishop/Portfolio/blob/main/Assets/Images/Demo%20image%203.PNG)
