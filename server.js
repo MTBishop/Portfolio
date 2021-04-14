@@ -1,19 +1,23 @@
-// Dependencies
-var express = require('express');
+const express = require('express');
+const mongoose = require('mongoose');
 
-// Making port and db
-var PORT = process.env.PORT || 3000;
-var db = require('./models');
+const PORT = process.env.PORT || 3000;
 
 const app = express();
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 app.use(express.static('public'));
 
-db.sequelize.sync().then(() => {
-  const server = app.listen(PORT, () => {
-    console.log(
-      `==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT}/ in your browser.`
-    );
-  });
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
+  useNewUrlParser: true,
+  useFindAndModify: false,
+});
+
+// routes
+app.use(require('./routes'));
+
+app.listen(PORT, () => {
+  console.log(`App running on http://localhost:${PORT}`);
 });
